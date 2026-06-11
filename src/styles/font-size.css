@@ -1,0 +1,31 @@
+:root{
+    --font-scale:1
+}
+
+.font-size-12px{
+    font-size: calc(0.625vw * var(--font-scale));
+}
+.font-size-14px{
+    font-size: calc(0.729vw * var(--font-scale));
+}
+.font-size-16px{
+    font-size: calc(0.833vw * var(--font-scale));
+}
+.font-size-18px{
+    font-size: calc(0.937vw * var(--font-scale));
+}
+.font-size-20px{
+    font-size: calc(1.042vw * var(--font-scale));
+}
+.font-size-24px{
+    font-size: calc(1.25vw * var(--font-scale));
+}
+.font-size-38px{
+    font-size: calc(1.979vw * var(--font-scale));
+}
+.font-size-55px{
+    font-size: calc(2.865vw * var(--font-scale));
+}
+.font-size-118px{
+    font-size: calc(6.125vw * var(--font-scale));
+}

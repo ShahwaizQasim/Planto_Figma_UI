@@ -1,0 +1,9 @@
+
+:root{
+    --background-color:#1A2016;
+}
+
+.bg-dark-green{
+    background-color: var(--background-color);
+    
+}

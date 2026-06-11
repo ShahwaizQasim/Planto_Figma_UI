@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+        background-color: #1A2016;
+        color: white;
+}
+
+.bg_plant{
+    height: 1800px;
+    background-image: url("./assets//img/bigPlant.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1A2016;
+
+}
