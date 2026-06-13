@@ -10,6 +10,10 @@ import AlinaPicture from "../assets/img/alena.png"
 import plantBig from "../assets/img/bigPlant.png"
 import RosePlant from "../assets/img/RosePlant.png"
 import RoseGoldPlant from "../assets/img/RoseGoldPlant.png"
+import plant3 from "../assets/img/plant3.png"
+import plant4 from "../assets/img/plant4.png"
+import plant5 from "../assets/img/plant5.png"
+import plant6 from "../assets/img/plant6.png"
 
 const images = {
     searchIcon: SearchIcon,
@@ -23,7 +27,12 @@ const images = {
     alinaImage: AlinaPicture,
     bigPlant: plantBig,
     RosePlant: RosePlant,
-    RoseGoldPlant: RoseGoldPlant
+    RoseGoldPlant: RoseGoldPlant,
+    plant3: plant3,
+    plant4: plant4,
+    plant5: plant5,
+    plant6: plant6
+
 }
 
 export {

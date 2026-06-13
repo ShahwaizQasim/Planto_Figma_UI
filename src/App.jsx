@@ -2,6 +2,7 @@ import Navbar from "./components/LandingPage/Navbar";
 import BreathNatureal from "./components/LandingPage/BreathNatureal";
 import TrendingPlants from "./components/LandingPage/TrendingPlants";
 import { OurTrendyPlants } from "./utils/data";
+import TopSelling from "./components/LandingPage/topSelling";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
           <TrendingPlants key={data.id} data={data} index={ind} />
         ))}
       </div>
+      <TopSelling />
     </>
   );
 }

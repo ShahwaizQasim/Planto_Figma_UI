@@ -16,3 +16,40 @@
     background-color: #1A2016;
 
 }
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.title-wrapper h2 {
+  color: white;
+  margin: 0;
+}
+
+.corner {
+  width: 40px;
+  height: 40px;
+  border-color: #8BC34A;
+}
+
+.left {
+  border-left: 3px solid #8BC34A;
+  border-bottom: 3px solid #8BC34A;
+  border-radius: 0 0 0 8px;
+  position: relative;
+  top: 4px;
+  left: 10px;
+}
+
+.right {
+  border-right: 3px solid #8BC34A;
+  border-bottom: 3px solid #8BC34A;
+  border-radius: 0 0 8px 0;
+  transform: rotate(-90deg);
+  position: relative;
+  bottom: 10px;
+  right: 15px;
+}
