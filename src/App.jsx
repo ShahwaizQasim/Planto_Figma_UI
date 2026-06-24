@@ -3,6 +3,9 @@ import BreathNatureal from "./components/LandingPage/BreathNatureal";
 import TrendingPlants from "./components/LandingPage/TrendingPlants";
 import { OurTrendyPlants } from "./utils/data";
 import TopSelling from "./components/LandingPage/topSelling";
+import CustomerReview from "./components/LandingPage/CustomerReview";
+import PlantsCollection from "./components/LandingPage/PlantsCollection";
+import Footer from "./components/LandingPage/Footer";
 function App() {
   return (
     <>
@@ -14,6 +17,9 @@ function App() {
         ))}
       </div>
       <TopSelling />
+      <CustomerReview />
+      <PlantsCollection />
+      <Footer />
     </>
   );
 }

@@ -121,3 +121,51 @@ export const products = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   }
 ];
+
+export const CustomerReview = [
+  {
+    id: 1,
+    name: "Maxn Raval",
+    rating: 5,
+    image: images.CustomerReviewFirstCardImage, // Replace with actual image URL
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  },
+  {
+    id: 2,
+    name: "venely k",
+    rating: 5,
+    image: images.CustomerReviewSecondCardImage, // Replace with actual image URL
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  },
+  {
+    id: 3,
+    name: "Lii thakur",
+    rating: 5,
+    image: images.CustomerReviewThirdCardImage, // Replace with actual image URL
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  }
+];
+
+export const slides = [
+  {
+    id: 1,
+    title: "We Have Small And Best O2 Plants Collection's",
+    desc1:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc2:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    image:
+      images.plantImage,
+    accent: "#3a7d44",
+  },
+  {
+    id: 2,
+    title: "Fresh Indoor Plants For Your Living Space",
+    desc1:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    desc2:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    image: images.PlantsR,
+    accent: "#2d6a4f",
+  },
+];

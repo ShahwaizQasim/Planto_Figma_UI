@@ -5,7 +5,7 @@ import Button from "../ui/button";
 
 const TrendingPlants = ({ data, index }) => {
   return (
-    <Layout>
+    <Layout className="pb-16">
       {index === 0 ? (
         <h1 className="text-center font-inter-semibold text-white font-size-55px">
           Our Trendy plants

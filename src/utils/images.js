@@ -14,6 +14,10 @@ import plant3 from "../assets/img/plant3.png"
 import plant4 from "../assets/img/plant4.png"
 import plant5 from "../assets/img/plant5.png"
 import plant6 from "../assets/img/plant6.png"
+import mainJols from "../assets/img/mainJolsi.png"
+import AlinaThakur from "../assets/img/thakur.png"
+import Max from "../assets/img/max.png"
+import PlantsR from "../assets/img/PlantsR.png"
 
 const images = {
     searchIcon: SearchIcon,
@@ -31,8 +35,11 @@ const images = {
     plant3: plant3,
     plant4: plant4,
     plant5: plant5,
-    plant6: plant6
-
+    plant6: plant6,
+    CustomerReviewFirstCardImage: mainJols,
+    CustomerReviewSecondCardImage: AlinaThakur,
+    CustomerReviewThirdCardImage: Max,
+    PlantsR: PlantsR
 }
 
 export {
