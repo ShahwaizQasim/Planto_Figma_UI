@@ -8,7 +8,7 @@ import { TrendyHousePlant } from "../../utils/data";
 const BreathNatureal = () => {
   return (
     <Layout>
-      <div className="flex justify-between px-8 z-20">
+      <div className="flex flex-col md:flex-row justify-between px-8 z-20">
         <div className=" flex flex-col mt-10 z-20">
           <h1 className="font-size-118px font-inter-semibold text-white tracking-[4px]">
             Breath Natureal

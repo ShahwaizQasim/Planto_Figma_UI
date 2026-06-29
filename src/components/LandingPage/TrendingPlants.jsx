@@ -7,24 +7,24 @@ const TrendingPlants = ({ data, index }) => {
   return (
     <Layout className="pb-16">
       {index === 0 ? (
-        <h1 className="text-center font-inter-semibold text-white font-size-55px">
+        <h1 className="text-center font-inter-semibold text-white font-size-55px md:mt-0 mt-6">
           Our Trendy plants
         </h1>
       ) : null}
 
       <div className="max-w-7xl mx-auto mt-10">
         <div
-          className={`flex items-center justify-between bg-[#2c3a23]/60 rounded-full ${index === 1 ? "flex-row-reverse" : ""}`}
+          className={`flex items-center flex-col md:flex-row justify-between bg-[#2c3a23]/60 rounded-full ${index === 1 ? "flex-row-reverse" : ""}`}
         >
           <div className={`flex-1`}>
             <img
               src={data?.image}
               alt={data?.name || "plant"}
-              className={`object-contain h-[350px] left-10 relative bottom-12 ${index === 1 ? " md:left-48 " : ""}`}
+              className={`object-contain h-[200px] md:h-[350px] md:left-10 relative md:bottom-12 ${index === 1 ? " md:left-48 " : ""}`}
             />
           </div>
           <div
-            className={`flex-1 flex flex-col gap-2 ${index === 1 ? "relative md:left-28 " : ""}`}
+            className={`flex-1 flex flex-col gap-2 pb-10 ${index === 1 ? "relative md:left-28 " : ""}`}
           >
             <h1 className="font-inter-semibold font-size-38px text-white">
               {data?.title}
