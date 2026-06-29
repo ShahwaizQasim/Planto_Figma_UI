@@ -13,7 +13,7 @@ const BreathNatureal = () => {
           <h1 className="font-size-118px font-inter-semibold text-white tracking-[4px]">
             Breath Natureal
           </h1>
-          <p className="font-size-22px text-gray-200 font-inter-regular max-w-xl">
+          <p className="md:font-size-22px text-[14px] text-gray-200 font-inter-regular md:font-inter-regular max-w-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -49,7 +49,9 @@ const BreathNatureal = () => {
             />
           </div>
           <div>
-            <p className="text-white font-inter-regular">alena Patel</p>
+            <p className="text-white font-inter-regular text-[14px]">
+              alena Patel
+            </p>
             <img
               src={images.starsImage}
               alt="stars_img"
@@ -57,7 +59,7 @@ const BreathNatureal = () => {
             />
           </div>
         </div>
-        <p className="font-size-18px font-inter-regular text-gray-300 pt-3">
+        <p className="md:font-size-18px text-[14px] font-inter-regular text-gray-300 pt-3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt...
         </p>

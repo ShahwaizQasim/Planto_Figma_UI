@@ -12,12 +12,12 @@ const Card = ({ data, isData }) => {
         className={`object-contain ${isData? "mt-5 mb-4 relative top-2 left-10 h-8": "relative bottom-16"}`}
       />
 
-      <p className={`pl-10 font-inter-regular text-gray-200 font-size-18px ${isData? "" :"relative bottom-7"}`}>
+      <p className={`pl-10 font-inter-regular text-gray-200 md:font-size-18px ${isData? "" :"relative bottom-7"}`}>
         {data?.title}
       </p>
       <div className={`flex justify-between items-center ${isData? " mt-2": "relative bottom-3"} px-3 pl-10`}>
         <div>
-          <h1 className="font-size-24px text-white font-inter-regular tracking-[1px]">
+          <h1 className="md:font-size-24px text-white font-inter-regular tracking-[1px]">
             {data?.name}
           </h1>
         </div>
@@ -31,7 +31,7 @@ const Card = ({ data, isData }) => {
       </div>
       <Button
         label={data?.buttonText}
-        className={`w-28 border border-white ml-10 text-white py-2 mt-2 font-inter-regular font-size-20px rounded-lg ${isData ? "mt-5":""}`}
+        className={`w-28 border border-white ml-10 text-white py-2 mt-2 font-inter-regular md:font-size-20px rounded-lg ${isData ? "mt-5":""}`}
       />
     </div>
   );

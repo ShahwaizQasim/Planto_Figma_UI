@@ -14,7 +14,7 @@ const Footer = () => {
               Planto.
             </span>
           </div>
-          <p className="text-white/80 font-size-20px leading-relaxed font-inter-medium max-w-xs">
+          <p className="text-white/80 md:font-size-20px leading-relaxed font-inter-medium max-w-xs">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -22,7 +22,7 @@ const Footer = () => {
 
         {/* Col 2 - Quick Links */}
         <div className="flex flex-col gap-4">
-          <h3 className="text-white font-size-24px font-inter-semibold tracking-wide">
+          <h3 className="text-white md:font-size-24px font-inter-semibold tracking-wide">
             Quick Link's
           </h3>
           <ul className="flex flex-col gap-3">
@@ -41,7 +41,7 @@ const Footer = () => {
 
         {/* Col 3 - Newsletter */}
         <div className="flex flex-col gap-4">
-          <h3 className="text-white font-size-24px font-inter-semibold tracking-wide">
+          <h3 className="text-white md:font-size-24px font-inter-semibold tracking-wide">
             For Every Update's
           </h3>
           <div className="flex items-stretch">
@@ -50,7 +50,7 @@ const Footer = () => {
               placeholder="Enter Email..."
               className="flex-1 bg-white/90 text-gray-700 placeholder-gray-400 text-sm font-inter-regular px-4 py-2.5 outline-none rounded-none"
             />
-            <button className="bg-[#e8e0d0] text-[#1a2a1a] text-xs font-inter-bold tracking-widest px-1 md:px-4 py-2.5 hover:bg-white transition-colors duration-200 whitespace-nowrap uppercase">
+            <button className="bg-[#e8e0d0] text-[#1a2a1a] text-xs font-inter-bold tracking-widest px-1 md:px-2 lg:px-4 py-2.5 hover:bg-white transition-colors duration-200 whitespace-nowrap uppercase">
               Subscribe
             </button>
           </div>
@@ -68,7 +68,7 @@ const Footer = () => {
             <Link
               key={social}
               to="#"
-              className="text-white/60 font-size-24px font-medium hover:text-white transition-colors duration-200 font-inter-bold"
+              className="text-white/60 md:font-size-24px font-medium hover:text-white transition-colors duration-200 font-inter-bold"
             >
               {social}
             </Link>
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="text-white/70 font-size-20px font-inter-regular">
+        <p className="text-white/70 text-[14px] md:font-size-20px font-inter-regular">
           Planto © All right reserve
         </p>
       </div>

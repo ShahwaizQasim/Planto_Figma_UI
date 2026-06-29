@@ -17,6 +17,9 @@
 .font-size-20px{
     font-size: calc(1.042vw * var(--font-scale));
 }
+.font-size-22px{
+    font-size: calc(1.146vw * var(--font-scale));
+}
 .font-size-24px{
     font-size: calc(1.25vw * var(--font-scale));
 }
